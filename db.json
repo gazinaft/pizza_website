@@ -1,0 +1,203 @@
+{
+  "products": [{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just mozarella, sauce and dough",
+    "price": 155,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_pepperoni",
+    "productName": "Pizza Pepperoni",
+    "productDescription": "The classic pizza, with thin slices of pepperoni",
+    "price": 165,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_five_cheese",
+    "productName": "Five Cheese Pizza",
+    "productDescription": "The most cheesy pizza you ever tasted",
+    "price": 175,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  },{
+    "url": "pizza_mozzarella",
+    "productName": "Pizza Mozzarella",
+    "productDescription": "The classic pizza, just cheese, sauce and drought",
+    "price": 155.05,
+    "images": [],
+    "weight": 250,
+    "relatedProductIds": [7,12,98],
+    "spicy": false,
+    "categoryId": 2,
+    "recommended": true
+  }],
+  "productsCategories": [{
+    "url": "vegeterian",
+    "name": "Вегетарианские",
+    "description": "Пиццы, не содержащие мяса"
+  },{
+    "url":"Classic",
+    "name":"Классические",
+    "description":"Пиццы, проверенные временем"
+  },{
+    "url":"Premium",
+    "name":"Премиум",
+    "description":"Пиццы, с изысканным вкусом и дорогими ингредиентами"
+  }],
+  "recommendations": [2,5,7,11],
+  "actions": [{
+    "url": "privedi_druga",
+    "name": "Акция Приведи друга!",
+    "description": "Детали акции ... ",
+    "datePosted": "25.02.2020"
+  }],
+  "orders": [],
+  "sliderData": [{
+    "url": ""
+  }]
+}
