@@ -20,6 +20,18 @@ export default class Cart {
     return JSON.parse(localStorage.getItem('cart'));
   }
 
+  delete(itemId) {
+    const value = JSON.parse(localStorage.getItem('cart'));
+    --value[itemId];
+    if(value[itemId] === 0) delete value[itemId];
+    localStorage.setItem('cart', JSON.stringify(value));
+  }
+
+  isEmpty() {
+    const value = JSON.parse(localStorage.getItem('cart'));
+    return Object.keys(value).length === 0;;
+  }
+
   clear() {
     localStorage.setItem('cart', "{}");
   }

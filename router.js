@@ -10,7 +10,7 @@ export default class Router {
   
   getShit = (midURL) => (endURL = '') => ({
     'cart': {viewName: 'cart', endpointName: '/db'},
-    'catalog': {viewName: `${endURL ? `catalog/page` : 'catalog'}`, endpointName: `${endURL ? `catalog/${endURL}` : '/db'}`},
+    'catalog': {viewName: `${endURL ? `catalog/page` : 'catalog'}`, endpointName: '/db'},
     'order': {viewName: 'order', endpointName: '/db'},
     'action': {viewName: `${endURL ? `action/page` : 'mainPage'}`, endpointName: `${endURL ? `action/${endURL}` : '/db'}`},
     'product': {viewName: `${endURL ? `action/page` : 'mainPage'}`, endpointName: `${endURL ? `catalog/${endURL}` : '/db'}`}
