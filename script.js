@@ -22,7 +22,7 @@ globalThis.show = async () => {
     tag.classList.remove('show');
   } else {
     tag.classList.add('show');
-    const data = await client.getData('/db');
+    const data = await client.getData('db');
     cart.visualize(data, tag);
   }
 }

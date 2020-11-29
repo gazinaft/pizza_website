@@ -17,16 +17,16 @@ export default class Router {
   }
 
   getShit = (midURL) => (endURL = '') => ({
-    'cart': {viewName: 'cart', endpointName: '/db'},
-    'catalog': {viewName: `${endURL ? `catalog/page` : 'catalog'}`, endpointName: '/db'},
-    'order': {viewName: 'order', endpointName: '/db'},
-    'action': {viewName: `${endURL ? `action/page` : 'mainPage'}`, endpointName: '/db'},
-    'product': {viewName: `${endURL ? `product/page` : 'mainPage'}`, endpointName: '/db'}
-  })[midURL] || {viewName: 'mainPage', endpointName: '/db'}
+    'cart': {viewName: 'cart', endpointName: 'db'},
+    'catalog': {viewName: `${endURL ? `catalog/page` : 'catalog'}`, endpointName: 'db'},
+    'order': {viewName: 'order', endpointName: 'db'},
+    'action': {viewName: `${endURL ? `action/page` : 'mainPage'}`, endpointName: 'db'},
+    'product': {viewName: `${endURL ? `product/page` : 'mainPage'}`, endpointName: 'db'}
+  })[midURL] || {viewName: 'mainPage', endpointName: 'db'}
 
 
   getState() {
-    if (!this.getHash()) return {viewName: 'mainPage', endpointName: '/db'};
+    if (!this.getHash()) return {viewName: 'mainPage', endpointName: 'db'};
     if (this.getHash().includes('/')) {
       const list = this.getHash().split('/');
       return this.getShit(list[0])(list[1]);
