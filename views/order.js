@@ -19,9 +19,9 @@ const display = (data, endpoint) => {
       <input type="text" class="form-control" placeholder="Your Name" id="name" required>
     </div>
 
-    <h2>Ardess</h2>
+    <h2>Address</h2>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Your adress" id="adress" required>
+      <input type="text" class="form-control" placeholder="Your adress" id="address" required>
     </div>
 
     <h2>Time</h2>
@@ -32,12 +32,12 @@ const display = (data, endpoint) => {
 
     <div class="form-group">
       <div class="custom-control custom-radio">
-        <input type="radio" id="cash" class="custom-control-input" checked="">
-        <label class="custom-control-label" for="customRadio1">Cash</label>
+        <input type="radio" id="cash" name="radiobut" class="custom-control-input" checked="">
+        <label class="custom-control-label" for="cash">Cash</label>
       </div>
       <div class="custom-control custom-radio">
-        <input type="radio" id="card"  class="custom-control-input">
-        <label class="custom-control-label" for="customRadio2">Card</label>
+        <input type="radio" id="card" name="radiobut" class="custom-control-input">
+        <label class="custom-control-label" for="card">Card</label>
       </div>
     </div>
     <button type="submit" class="btn btn-primary" onclick="submitForm()">Submit</button>

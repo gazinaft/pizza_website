@@ -13,14 +13,16 @@
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a>
       <div class="overlay-content">
-        <a href="#">Tasty Pizza</a>
-        <a href="#catalog">Catalog</a>
-        <a href="#order">Order</a>
+        <a href="#" onclick="closeNav()">Tasty Pizza</a>
+        <a href="#catalog" onclick="closeNav()">Catalog</a>
+        <a href="#order" onclick="closeNav()">Order</a>
       </div>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">Tasty pizza</a>
+      <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" onclick="show()" role="button" aria-haspopup="true" aria-expanded="true">Cart</a>
+      <div class="dropdown-menu" id="dropdown" style="min-width: max-content; max-height: 420px; overflow-y: auto;"></div>
       <button class="navbar-toggler" id="openbtn" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,32 +62,26 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
             <p>
-              <a href="#!" class="text-white">MDBootstrap</a>
+              <a href="#catalog/vegetarian" class="text-white">Vegetarian</a>
             </p>
             <p>
-              <a href="#!" class="text-white">MDWordPress</a>
+              <a href="#catalog/classic" class="text-white">Classic</a>
             </p>
             <p>
-              <a href="#!" class="text-white">BrandFlow</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Bootstrap Angular</a>
+              <a href="#catalog/premium" class="text-white">Premium</a>
             </p>
           </div>
           <hr class="w-100 clearfix d-md-none">
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+            <h6 class="text-uppercase mb-4 font-weight-bold">Actions</h6>
             <p>
-              <a href="#!" class="text-white">Your Account</a>
+              <a href="#action/free30min" class="text-white">Free pizza for 30 minute delivery</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Become an Affiliate</a>
+              <a href="#action/five_for_one" class="text-white">Five pizza bundle</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Help</a>
+              <a href="#action/big_pizza" class="text-white">Big pizza discount</a>
             </p>
           </div>
           <hr class="w-100 clearfix d-md-none">

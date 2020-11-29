@@ -1,25 +1,33 @@
 const display = (data, db) => {
+
   return `
   <div class="container" max-width="600px">
     <h1>Delivery details</h1>
-    <h3>Email: <b>${data.email}</b><h3>
-    <h3>Phone number: ${data.phone}<h3>
-    <h3>Name: ${data.name}<h3>
-    <h3>Adress: ${data.adress}<h3>
-    <h3>Time: ${data.time}<h3>
-    <h3>Payment: ${data.payment}<h3>
+    <p>
+      Email: <b>${data.email}</b> <br>
+      Phone number: ${data.phone} <br>
+      Name: ${data.name} <br>
+      Adress: ${data.adress} <br>
+      Time: ${data.time} <br>
+      Payment: ${data.payment} <br>
+    </p>
 
     <hr>
 
-    <h1>Order<h1>
-    ${Object.entries(data.order).map(([key, quantity]) => {
-      const product = db.find(x => x.id == key);
+    <h1>Order</h1>
+    ${Object.keys(data.order).map((key) => {
+      console.log(db);
+      const product = db.find(x => x.id === key);
+      const quantity = data.order[key];
       return `
-      <h3>${product.productName}<h3>
-      <h5>${quantity} for ${quantity * product.price}</h5>
+      ${product.productName}
+      <h5 style="text-align: left">${quantity} for ${quantity * product.price}</h5>
     `}).reduce((acc, item) => acc + item)
     }
-    <h3>Total: ${data.price}</h3>
+
+    <hr>
+
+    <p class="lead">Total: ${data.price}</p>
   </div>
   `
 }
